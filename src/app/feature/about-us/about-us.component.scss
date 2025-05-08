@@ -1,0 +1,27 @@
+.card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  section {
+    margin-bottom: 3rem;
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa !important;
+  }
+  
