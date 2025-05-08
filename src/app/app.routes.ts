@@ -5,7 +5,7 @@ import { ContactUsComponent } from './feature/contact-us/contact-us.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
-    { path: 'about', component: AboutUsComponent },
-    { path: 'contact', component: ContactUsComponent },
+    { path: 'about-us', component: AboutUsComponent },
+    { path: 'contact-us', component: ContactUsComponent },
     { path: '**', redirectTo: '' } // Optional: redirect unknown paths to home
 ];
