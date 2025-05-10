@@ -1,0 +1,24 @@
+<section class="py-5 text-center bg-dark text-white">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Cameras</h1>
+    <p class="lead mt-3">Discover the latest cameras, from mirrorless beasts to compact powerhouses.</p>
+  </div>
+</section>
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Camera Reviews & Unboxings</h2>
+    <div class="row g-4">
+      <div class="col-md-4" *ngFor="let video of cameraVideos">
+        <div class="card h-100 shadow-sm border-0 hover-card">
+          <img [src]="video.thumbnail" class="card-img-top" [alt]="video.title">
+          <div class="card-body">
+            <h5 class="card-title">{{ video.title }}</h5>
+            <p class="card-text">{{ video.description }}</p>
+            <a [href]="video.url" target="_blank" class="btn btn-outline-primary btn-sm">Watch on YouTube</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
